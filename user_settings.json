@@ -1,7 +1,13 @@
 {
+    "workbench.colorTheme": "Catppuccin Macchiato",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.sideBar.location": "right",
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "explorer.confirmDragAndDrop": true,
+    "vsicons.dontShowNewVersionMessage": true,
     // General settings
     "security.workspace.trust.untrustedFiles": "newWindow",
-    "window.zoomLevel": 4,
     "window.commandCenter": false,
     "files.exclude": {
         ".git": true,
@@ -9,27 +15,16 @@
     },
     "extensions.autoUpdate": "onlyEnabledExtensions",
     // Git settings
-    "git.autofetch": true,
-    "git.confirmSync": false,
-    "git.enableSmartCommit": true,
-    "git.showActionButton": {
-        "commit": false,
-        "publish": false,
-        "sync": false
-    },
-    "github.copilot.enable": {
-        "*": true,
-        "plaintext": false,
-        "scminput": false,
-        "yaml": false
-    },
+    // "github.copilot.enable": {
+    //     "*": true,
+    //     "plaintext": false,
+    //     "scminput": false,
+    //     "yaml": false
+    // },
     // Explorer settings
     "explorer.excludeGitIgnore": true,
     "explorer.autoReveal": true,
-    "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false,
     // Workbench settings
-    "workbench.colorTheme": "Default Dark+",
     "workbench.editor.enablePreview": false,
     "workbench.editor.tabSizing": "shrink",
     "workbench.settings.editor": "json",
