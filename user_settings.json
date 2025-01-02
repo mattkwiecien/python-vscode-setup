@@ -1,19 +1,18 @@
 {
-    "workbench.colorTheme": "Catppuccin Macchiato",
-    "workbench.iconTheme": "vscode-icons",
+    // Workbench settings
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "workbench.iconTheme": "catppuccin-mocha",
     "workbench.sideBar.location": "right",
-    "git.enableSmartCommit": true,
-    "git.autofetch": true,
-    "explorer.confirmDragAndDrop": true,
-    "vsicons.dontShowNewVersionMessage": true,
-    // General settings
-    "security.workspace.trust.untrustedFiles": "newWindow",
-    "window.commandCenter": false,
-    "files.exclude": {
-        ".git": true,
-        "**/.git": false
-    },
-    "extensions.autoUpdate": "onlyEnabledExtensions",
+    "workbench.editor.pinnedTabsOnSeparateRow": true,
+    "workbench.editor.wrapTabs": true,
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.settings.editor": "json",
+    // Explorer settings
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "explorer.excludeGitIgnore": true,
+    "explorer.autoReveal": true,
     // Git settings
     // "github.copilot.enable": {
     //     "*": true,
@@ -21,13 +20,8 @@
     //     "scminput": false,
     //     "yaml": false
     // },
-    // Explorer settings
-    "explorer.excludeGitIgnore": true,
-    "explorer.autoReveal": true,
-    // Workbench settings
-    "workbench.editor.enablePreview": false,
-    "workbench.editor.tabSizing": "shrink",
-    "workbench.settings.editor": "json",
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
     // Editor settings
     "ruff.importStrategy": "useBundled",
     "editor.defaultFormatter": "charliermarsh.ruff",
@@ -38,20 +32,38 @@
         "source.organizeImports": "always",
         "source.fixAll": "always"
     },
+    "editor.fontsize": 16,
     "files.autoSave": "onFocusChange",
+    "files.exclude": {
+        ".git": true,
+        "**/.git": false
+    },
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
     // Debug settings
     "debug.toolBarLocation": "docked",
+    "debug.console.fontSize": 16,
     // Terminal settings
     "terminal.integrated.tabs.enabled": true,
     "terminal.integrated.tabs.hideCondition": "never",
-    "terminal.integrated.tabs.location": "right",
+    "terminal.integrated.tabs.location": "left",
+    "terminal.integrated.fontsize": 20,
+    "terminal.external.osxExec": "iterm2.app",
     // Markdown settings
     "markdown.preview.scrollEditorWithPreview": true,
-    "markdown.preview.scrollPreviewWithEditor": true
+    "markdown.preview.scrollPreviewWithEditor": true,
+    "markdown.preview.fontSize": 16,
+    // General settings
+    "security.workspace.trust.untrustedFiles": "newWindow",
+    "window.commandCenter": false,
+    "extensions.autoUpdate": "onlyEnabledExtensions",
+    "vsicons.dontShowNewVersionMessage": true,
+    "chat.editor.fontSize": 16,
 }
