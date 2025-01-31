@@ -1,0 +1,9 @@
+.venv/
+.vscode/
+tests/
+.envrc
+.gitignore
+.python-version
+Dockerfile
+LICENSE.txt
+ruff.toml
